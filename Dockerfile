@@ -1,7 +1,7 @@
 FROM vmarrazzo/jmeter:latest
 RUN apk add --update --no-cache \
     ca-certificates \
-    wget \
+    wget 
 
 # kubectl
 ARG KUBE_VERSION=1.14.1

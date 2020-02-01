@@ -7,6 +7,7 @@ ENV	JMETER_DOWNLOAD_URL  https://archive.apache.org/dist/jmeter/binaries/apache-
 
 RUN apk add --update --no-cache \
     ca-certificates \
+    coreutils \
     curl \
     nss \
     openjdk8-jre \
